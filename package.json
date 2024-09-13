@@ -1,0 +1,23 @@
+{
+  "name": "cypress-express",
+  "version": "1.0.0",
+  "description": "Desafio inmetrics",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giiu24/desafio-inmetrcis.git"
+  },
+  "author": "Giulia Freire",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.14.2",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDeFinitions": true,
+    "stepDefinitions": "cypress/e2e/step_definitions/Web"
+  },
+  "dependencies": {
+    "cypress-file-upload": "^5.0.8"
+  }
+}
